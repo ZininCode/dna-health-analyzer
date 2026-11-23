@@ -127,6 +127,8 @@ before any medical use.*
 
 - Integrated a large language model API into a production workflow to produce plain-language
   explanations of genetic findings.
+- Implemented structured prompting and automated validation of AI-generated interpretations to
+  improve reliability and consistency.
 - Applied AI in a sensitive, accuracy-critical domain, combining AI output with established
   reference data rather than relying on the model alone.
 - Designed the integration to be robust: the analysis still completes when the AI service is slow
