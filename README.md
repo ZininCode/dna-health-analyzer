@@ -172,18 +172,3 @@ publicly available HG002 reference genome sample from the Genome in a Bottle con
 than data from any real user.
 
 The service is currently offered free of charge during an introductory period.
-
-## Development
-
-DNA Health Analyzer was designed, developed and deployed as an independent project. The work
-covers product definition, user experience, backend and frontend development, genetic data
-processing, AI integration, reporting, security, cloud deployment and ongoing operation.
-
-AI coding agents were used as development tools where appropriate, while requirements, design
-decisions, review, testing and deployment remained under the author's responsibility.
-
-## Source Availability
-
-The source code is maintained in a private repository because the application contains
-proprietary analysis and interpretation methods. This repository serves as a public overview of
-the project. The technical work can be discussed in more depth on request.
