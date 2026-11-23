@@ -22,6 +22,52 @@ further reading and discussion with healthcare professionals and are not a medic
 DNA Health Analyzer is the first service of **North Genetics**, a life-science technology brand
 focused on tools for genetic data analysis and interpretation.
 
+## What It Does
+
+### Input
+
+A raw DNA data file downloaded by the user from a consumer genotyping service. Such a file is a
+plain-text list of genetic markers, each with an identifier, a genomic position and the user's
+genotype at that position.
+
+### Output
+
+- **Report summary** – an on-screen overview of the completed analysis.
+- **PDF report** – a readable table of findings, each with its genotype, gene, population
+  frequency, clinical significance, associated condition or trait, interpretation, importance
+  rating and a plain-language summary, followed by explanatory notes and a disclaimer.
+- **Extended data export** – a tab-separated file with the full finding details for users who
+  want to explore the data further.
+
+### Key Terms
+
+| Term | Meaning |
+| --- | --- |
+| SNP | Single-nucleotide polymorphism – a position in the DNA where people commonly differ by a single letter (A, C, G or T). |
+| rsID | A standard identifier for a known genetic variant, for example `rs1234`. |
+| Genotype | The two letters a person carries at a position, one inherited from each parent. |
+| Heterozygous / homozygous | Two different letters at a position / the same letter twice. |
+| ClinVar | A public database of reported relationships between genetic variants and health conditions. |
+| Clinical significance | The classification submitted to ClinVar, such as pathogenic, benign, risk factor or drug response. It is not a diagnosis. |
+| Population frequency | How common a variant is in reference populations. Rare does not mean harmful, and common does not mean harmless. |
+| Carrier status | The service's interpretation of a finding, e.g. *Functional variant*, *Recessive carrier*, *Neutral* or *Uncertain*. |
+| Recessive carrier | One copy of a variant associated with a recessive condition; carriers are usually unaffected but may pass it on. |
+| Importance | An AI-assisted rating (*High*, *Moderate*, *Low*, *Minimal*) of how informative a finding is – not a measure of disease risk. |
+| AI interpretation summary | A short plain-language explanation of what the finding may mean. |
+
+### Example Use Case
+
+A person who has tested with a consumer genotyping service wants to know whether their raw data
+contains anything health-related. They sign in, confirm consent and upload the file. When the
+analysis is complete, the report lists, among other findings, a variant
+labeled *Recessive carrier* for an inherited condition, with its population frequency, ClinVar
+classification and a plain-language summary. The person downloads the PDF and brings it to a
+genetic counselor or physician, who can decide whether confirmatory clinical testing is
+appropriate.
+
+*This is an illustrative scenario. Results are informational and require clinical confirmation
+before any medical use.*
+
 ## Key Features
 
 - **Raw DNA data upload** – accepts raw DNA data files exported by common consumer
