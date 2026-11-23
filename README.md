@@ -61,55 +61,38 @@ focused on tools for genetic data analysis and interpretation.
 
 ## Engineering Highlights
 
-| Engineering area | What I demonstrated |
+| Engineering area | Demonstrated experience |
 | --- | --- |
 | Full-stack development | Designed, built and deployed a complete web product, from user interface to report generation |
 | Automated data processing | Built a background analysis workflow that turns raw genetic files from different sources into consistent results |
 | Data integration | Combined user genotype data with public clinical and population reference data |
 | AI integration | Integrated a large language model into an accuracy-critical domain, with safeguards and graceful fallback |
-| Cloud deployment | Deployed and operate the service on a public HTTPS domain |
+| Cloud deployment | Deployed and operated the service on a public HTTPS domain |
 | Application security | Implemented authentication, role-based access, CSRF protection, rate limiting, upload validation and private handling of genetic data |
 | Maintenance and reliability | Automated test suite, versioned database migrations, recovery of interrupted jobs and automated data retention |
 
 More detail: [ENGINEERING_HIGHLIGHTS.md](ENGINEERING_HIGHLIGHTS.md)
 
-## Screenshots
-
-Screenshots are taken from the public demo, which uses the publicly available HG002 reference
-genome sample from the Genome in a Bottle consortium rather than data from any real user.
-
-<!-- Add approved images to screenshots/ and uncomment the entries below. -->
-<!--
-| Home page | Demo results |
-| --- | --- |
-| ![Home page](screenshots/01-home.png) | ![Demo results](screenshots/02-demo-results.png) |
-
-| PDF report (excerpt) | About the analysis |
-| --- | --- |
-| ![PDF report](screenshots/03-pdf-report.png) | ![About page](screenshots/04-about.png) |
--->
-
-*Screenshots coming soon. Until then, the [live demo](https://north-genetics.com) shows the
-application in action.*
-
 ## Live Application
 
 The application is publicly available at **[DNA Health Analyzer — North Genetics](https://north-genetics.com)**.
-Select **View demo results** to explore a sample report without signing in.
+Select **View demo results** to explore a sample report without signing in. The demo uses the
+publicly available HG002 reference genome sample from the Genome in a Bottle consortium rather
+than data from any real user.
 
 The service is currently offered free of charge during an introductory period.
 
-## My Contribution
+## Development
 
-I designed, developed and deployed DNA Health Analyzer as an independent project. My work covers
-product definition, user experience, backend and frontend development, genetic data processing,
-AI integration, reporting, security, cloud deployment and ongoing operation.
+DNA Health Analyzer was designed, developed and deployed as an independent project. The work
+covers product definition, user experience, backend and frontend development, genetic data
+processing, AI integration, reporting, security, cloud deployment and ongoing operation.
 
-I used AI coding agents as development tools where appropriate, while remaining responsible for
-the requirements, design decisions, review, testing and deployment of the application.
+AI coding agents were used as development tools where appropriate, while requirements, design
+decisions, review, testing and deployment remained under the author's responsibility.
 
 ## Source Availability
 
 The source code is maintained in a private repository because the application contains
 proprietary analysis and interpretation methods. This repository serves as a public overview of
-the project. I am happy to discuss the technical work in more depth during an interview.
+the project. The technical work can be discussed in more depth on request.
