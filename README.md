@@ -92,18 +92,12 @@ before any medical use.*
 
 ## Technologies Used
 
-| Area | Technologies |
-| --- | --- |
-| Backend | Java 21, Spring Boot, Spring Security, Spring Data JPA, REST APIs |
-| Frontend | React, TypeScript, Vite |
-| Database | MySQL, Flyway |
-| Data processing | Bash, AWK, Python |
-| Reporting | Apache PDFBox |
-| AI integration | OpenAI API |
-| Authentication | Google OAuth 2.0, email/password with email verification |
-| Genomic data sources | ClinVar and public population-frequency data |
-| Hosting and delivery | AWS (S3, CloudFront), Ubuntu Linux server, Caddy, systemd |
-| Testing | JUnit 5, Spring Boot Test, Spring Security Test |
+- **Backend:** Java 21, Spring Boot, Spring Security, Spring Data JPA, REST APIs
+- **Frontend:** React, TypeScript, Vite
+- **Database:** MySQL
+- **Data processing:** Bash, AWK, Python
+- **AI integration:** OpenAI API
+- **Genomic data sources:** ClinVar and public population-frequency data
 
 ## Engineering Highlights
 
